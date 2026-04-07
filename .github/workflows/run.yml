@@ -50,8 +50,8 @@ jobs:
       - name: Generate `mihomo` geodata
         run: |
           mkdir -p ./tmp/ ./community/mydata/
-          archs1=(ads private trackerslist microsoft-cn apple-cn google-cn games-cn games media ai networktest tld-proxy gfw proxy cn)
-          archs2=(ads private trackerslist microsoft-cn apple-cn google-cn games-cn ai networktest tld-proxy gfw proxy cn)
+          archs1=(ads private trackerslist microsoft-cn apple-cn google-cn games-cn games netflix disney max primevideo appletv youtube tiktok bilibili spotify media ai networktest tld-proxy gfw proxy cn)
+          archs2=(ads private trackerslist microsoft-cn apple-cn google-cn games-cn games ai networktest tld-proxy gfw proxy cn)
           archs3=(private microsoft-cn apple-cn google-cn games-cn gfw cn-lite)
 
           # Ready for `fakeip-filter` and `fakeip-filter-lite`
@@ -110,14 +110,14 @@ jobs:
         run: |
           mkdir -p ./mihomo-geodata/
           # Download mihomo geoip files (.mmdb)
-          mihomo_mmdb=($(curl -sSL https://api.github.com/repos/DustinWin/geoip/releases | grep '"browser_download_url"' | grep '.mmdb' | awk -F '"' '{print $4}'))
+          mihomo_mmdb=($(curl -sSL https://api.github.com/repos/DustinWin/geoip/releases | awk '/"browser_download_url"/' | awk '/.mmdb/' | awk -F '"' '{print $4}'))
           count_mihomo_mmdb=${#mihomo_mmdb[@]}
           for ((i = 0; i < count_mihomo_mmdb; i++)); do
             wget -P ./mihomo-geodata/ "${mihomo_mmdb[i]}"
           done
 
           # Download `mihomo` other geoip files (except .mmdb)
-          mihomo_others=($(curl -sSL https://api.github.com/repos/DustinWin/geoip/releases | grep '"browser_download_url"' | grep '/mihomo-geodata/' | grep -v '.mmdb' | awk -F '"' '{print $4}'))
+          mihomo_others=($(curl -sSL https://api.github.com/repos/DustinWin/geoip/releases | awk '/"browser_download_url"/' | awk '/\/mihomo-geodata\//' | awk '!/\.mmdb/' | awk -F '"' '{print $4}'))
           count_mihomo_others=${#mihomo_others[@]}
           for ((i = 0; i < count_mihomo_others; i++)); do
             wget -P ./community/ "${mihomo_others[i]}"
