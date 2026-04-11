@@ -105,7 +105,7 @@
   </tr>
   <tr>
     <td>Country-ASN-all.mmdb</td>
-    <td><code>cloudflare</code></del>、<code>cloudfront</code>、<code>facebook</code>、<code>fastly</code>、<code>google</code>、<code>netflix</code>、<code>telegram</code> 和 <code>twitter</code>，具体可<a href="https://github.com/Loyalsoldier/geoip/blob/d1eca9ff06580fe8f015b139248e09177a576c38/config.json#L124">点此查看</a></td>
+    <td><code>cloudflare</code></del>、<code>cloudfront</code>、<code>facebook</code>、<code>fastly</code>、<code>google</code>、<code>netflix</code>、<code>telegram</code> 和 <code>twitter</code>，具体可<a href="https://github.com/Loyalsoldier/geoip/blob/master/config.json#L124">点此查看</a></td>
     <td><a href="https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-geodata/Country-ASN-all.mmdb">点此下载</a></td>
     <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-geodata/Country-ASN-all.mmdb">点此下载</a></td>
     <td><a href="https://ghfast.top/https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-geodata/Country-ASN-all.mmdb">点此下载</a></td>
@@ -1090,7 +1090,7 @@ rules:
 
 ## 4. sing-box 内核文件使用
 注：
-- 1. [sing-box-ruleset](https://github.com/DustinWin/ruleset_geodata/releases/tag/sing-box-ruleset) 规则集文件版本为 [sing-box 规则集版本](https://sing-box.sagernet.org/zh/configuration/rule-set/source-format/#_2)最新版；[sing-box-ruleset-compatible](https://github.com/DustinWin/ruleset_geodata/releases/tag/sing-box-ruleset-compatible) 规则集文件版本为 [sing-box 规则集版本](https://sing-box.sagernet.org/zh/configuration/rule-set/source-format/#_2)最新版的上一个版本
+- 1. [sing-box-ruleset](https://github.com/DustinWin/ruleset_geodata/releases/tag/sing-box-ruleset) 规则集文件版本为 [sing-box 规则集版本](https://sing-boxr.dustinwin.us.kg/zh/configuration/rule-set/source-format/#version)最新版；[sing-box-ruleset-compatible](https://github.com/DustinWin/ruleset_geodata/releases/tag/sing-box-ruleset-compatible) 规则集文件版本为 [sing-box 规则集版本](https://sing-boxr.dustinwin.us.kg/zh/configuration/rule-set/source-format/#version)最新版的上一个版本
 - 2. 以下只是节选，请酌情套用
 
 <details>
