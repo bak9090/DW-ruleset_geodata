@@ -113,14 +113,14 @@ jobs:
           mihomo_mmdb=($(curl -sSL https://api.github.com/repos/DustinWin/geoip/releases | awk '/"browser_download_url"/' | awk '/.mmdb/' | awk -F '"' '{print $4}'))
           count_mihomo_mmdb=${#mihomo_mmdb[@]}
           for ((i = 0; i < count_mihomo_mmdb; i++)); do
-            wget -P ./mihomo-geodata/ "${mihomo_mmdb[i]}"
+            wget -q -P ./mihomo-geodata/ "${mihomo_mmdb[i]}"
           done
 
           # Download `mihomo` other geoip files (except .mmdb)
           mihomo_others=($(curl -sSL https://api.github.com/repos/DustinWin/geoip/releases | awk '/"browser_download_url"/' | awk '/\/mihomo-geodata\//' | awk '!/\.mmdb/' | awk -F '"' '{print $4}'))
           count_mihomo_others=${#mihomo_others[@]}
           for ((i = 0; i < count_mihomo_others; i++)); do
-            wget -P ./community/ "${mihomo_others[i]}"
+            wget -q -P ./community/ "${mihomo_others[i]}"
           done
 
       - name: Move `mihomo` geodata files
@@ -204,7 +204,7 @@ jobs:
 
       - name: Generate `mihomo` rule-set (mrs) and move .list files
         run: |
-          curl -o ./tools/mihomo -L https://github.com/DustinWin/proxy-tools/releases/download/mihomo/mihomo-meta-linux-amd64-v3.upx
+          curl -sS -o ./tools/mihomo -L https://github.com/DustinWin/proxy-tools/releases/download/mihomo/mihomo-meta-linux-amd64-v3.upx
           chmod +x ./tools/mihomo
 
           cd ./tools/
@@ -233,7 +233,7 @@ jobs:
             echo "singbox_equal=true" >> $GITHUB_ENV
 
             # Generate `sing-box` rule_set (compatible)
-            curl -L "https://github.com/SagerNet/sing-box/releases/download/v${{ env.singbox_core_compatible_version }}/sing-box-${{ env.singbox_core_compatible_version }}-linux-amd64.tar.gz" | tar -zx -C ./tools/
+            curl -sS -L "https://github.com/SagerNet/sing-box/releases/download/v${{ env.singbox_core_compatible_version }}/sing-box-${{ env.singbox_core_compatible_version }}-linux-amd64.tar.gz" | tar -zx -C ./tools/
             mv -f "./tools/sing-box-${{ env.singbox_core_compatible_version }}-linux-amd64/sing-box" ./tools/sing-box
             mkdir -p ./sing-box-ruleset-compatible/
             cd ./tools/
@@ -244,7 +244,7 @@ jobs:
 
             # Generate `sing-box` rule_set
             cd ../
-            curl -o ./tools/sing-box -L https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-stable-linux-amd64-v3.upx
+            curl -sS -o ./tools/sing-box -L https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-stable-linux-amd64-v3.upx
             chmod +x ./tools/sing-box
             mkdir -p ./sing-box-ruleset/
             cd ./tools/
@@ -261,7 +261,7 @@ jobs:
             echo "singbox_equal=false" >> $GITHUB_ENV
 
             # Generate `sing-box` rule_set (compatible)
-            curl -o ./tools/sing-box -L https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-stable-linux-amd64-v3.upx
+            curl -sS -o ./tools/sing-box -L https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-stable-linux-amd64-v3.upx
             chmod +x ./tools/sing-box
             mkdir -p ./sing-box-ruleset-compatible/
             cd ./tools/
@@ -272,7 +272,7 @@ jobs:
 
             # Generate `sing-box` rule_set
             cd ../
-            curl -o ./tools/sing-box -L https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-test-linux-amd64-v3.upx
+            curl -sS -o ./tools/sing-box -L https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-test-linux-amd64-v3.upx
             chmod +x ./tools/sing-box
             mkdir -p ./sing-box-ruleset/
             cd ./tools/
