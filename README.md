@@ -746,6 +746,8 @@ rules:
 <details>
 <summary>② <code>icon</code> 图标版</summary>
 
+- 注：以下只是节选，请酌情套用
+
 ```yaml
 proxy-groups:
   - {name: 节点选择, type: select, proxies: [自动选择, 手动选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/proxy.png"}
@@ -1094,7 +1096,9 @@ rules:
 - 2. 以下只是节选，请酌情套用
 
 <details>
-<summary>展开/收起</summary>
+<summary>① emoji 图标版</summary>
+
+- 注：以下只是节选，请酌情套用
 
 ```json
 {
@@ -1168,6 +1172,329 @@ rules:
       { "rule_set": [ "telegramip" ], "outbound": "📲 电报消息" },
       { "rule_set": [ "netflixip" ], "outbound": "🎥 奈飞视频" },
       { "rule_set": [ "mediaip" ], "outbound": "🌍 国外媒体" }
+    ],
+    "rule_set": [
+      // 任选一
+      {
+        "tag": "fakeip-filter",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/fakeip-filter.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/fakeip-filter.srs"
+      },
+      // 任选一
+      {
+        "tag": "fakeip-filter",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/fakeip-filter.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/fakeip-filter-lite.srs"
+      },
+      {
+        "tag": "ads",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/ads.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs"
+      },
+      {
+        "tag": "private",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/private.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/private.srs"
+      },
+      {
+        "tag": "trackerslist",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/trackerslist.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/trackerslist.srs"
+      },
+      {
+        "tag": "applications",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/applications.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/applications.srs"
+      },
+      {
+        "tag": "microsoft-cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/microsoft-cn.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/microsoft-cn.srs"
+      },
+      {
+        "tag": "apple-cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/apple-cn.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/apple-cn.srs"
+      },
+      {
+        "tag": "google-cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/google-cn.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/google-cn.srs"
+      },
+      {
+        "tag": "games-cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/games-cn.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/games-cn.srs"
+      },
+      {
+        "tag": "games",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/games.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/games.srs"
+      },
+      {
+        "tag": "netflix",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/netflix.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/netflix.srs"
+      },
+      {
+        "tag": "disney",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/disney.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/disney.srs"
+      },
+      {
+        "tag": "max",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/max.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/max.srs"
+      },
+      {
+        "tag": "primevideo",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/primevideo.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/primevideo.srs"
+      },
+      {
+        "tag": "appletv",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/appletv.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/appletv.srs"
+      },
+      {
+        "tag": "youtube",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/youtube.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/youtube.srs"
+      },
+      {
+        "tag": "tiktok",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/tiktok.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/tiktok.srs"
+      },
+      {
+        "tag": "bilibili",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/bilibili.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/bilibili.srs"
+      },
+      {
+        "tag": "spotify",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/spotify.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/spotify.srs"
+      },
+      {
+        "tag": "media",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/media.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/media.srs"
+      },
+      {
+        "tag": "ai",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/ai.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ai.srs"
+      },
+      {
+        "tag": "networktest",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/networktest.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/networktest.srs"
+      },
+      {
+        "tag": "tld-proxy",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/tld-proxy.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/tld-proxy.srs"
+      },
+      {
+        "tag": "gfw",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/gfw.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/gfw.srs"
+      },
+      {
+        "tag": "proxy",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/proxy.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/proxy.srs"
+      },
+      //  任选一
+      {
+        "tag": "cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/cn.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn.srs"
+      },
+      //  任选一
+      {
+        "tag": "cn",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/cn.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn-lite.srs"
+      },
+      {
+        "tag": "privateip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/privateip.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/privateip.srs"
+      },
+      {
+        "tag": "cnip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/cnip.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs"
+      },
+      {
+        "tag": "telegramip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/telegramip.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegramip.srs"
+      },
+      {
+        "tag": "netflixip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/netflixip.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/netflixip.srs"
+      },
+      {
+        "tag": "mediaip",
+        "type": "remote",
+        "format": "binary",
+        "path": "./ruleset/mediaip.srs",
+        "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/mediaip.srs"
+      }
+    ]
+  }
+}
+```
+</details>
+<details>
+<summary>② icon 图标版</summary>
+
+注：
+- 1. 以下只是节选，请酌情套用
+- 2. 推荐使用 [zashboard 面板](https://github.com/Zephyruso/zashboard)并进行如下设置：  
+① 进入 zashboard 面板 → 代理 → 代理设置 → 管理隐藏代理组，隐藏不必要显示的代理组  
+② 进入 zashboard 面板 → 设置 → 代理设置 → 外观 → 自定义图标，设置“组名”和“URL”，“URL”可参考 [icon 文件](https://github.com/DustinWin/ruleset_geodata/releases/tag/icons)
+
+```json
+{
+  "outbounds": [
+    { "tag": "节点选择", "type": "selector", "outbounds": [ "自动选择", "手动选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "网络测试", "type": "selector", "outbounds": [ "全球直连", "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "游戏平台", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "AI 平台", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "游戏服务", "type": "selector", "outbounds": [ "全球直连", "节点选择" ] },
+    { "tag": "微软服务", "type": "selector", "outbounds": [ "全球直连", "节点选择" ] },
+    { "tag": "谷歌服务", "type": "selector", "outbounds": [ "全球直连", "节点选择" ] },
+    { "tag": "苹果服务", "type": "selector", "outbounds": [ "全球直连", "节点选择" ] },
+    { "tag": "奈飞视频", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "迪士尼+", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "Max", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "Prime Video", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "Apple TV+", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "油管视频", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "TikTok", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "哔哩哔哩", "type": "selector", "outbounds": [ "全球直连", "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "Spotify", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "国外媒体", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "国内域名", "type": "selector", "outbounds": [ "全球直连", "节点选择" ] },
+    { "tag": "国内 IP", "type": "selector", "outbounds": [ "全球直连", "节点选择" ] },
+    { "tag": "国外顶级域名", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "国外域名", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "电报消息", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点" ] },
+    { "tag": "直连软件", "type": "selector", "outbounds": [ "全球直连" ] },
+    { "tag": "私有网络", "type": "selector", "outbounds": [ "全球直连" ] },
+    { "tag": "漏网之鱼", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "全球直连" ] },
+    { "tag": "全球直连", "type": "selector", "outbounds": [ "DIRECT"] },
+    { "tag": "DIRECT", "type": "direct" },
+    { "tag": "GLOBAL", "type": "selector", "outbounds": [ "节点选择", "DIRECT" ] },
+
+    { "tag": "香港节点", "type": "urltest", "providers": [ "🛫 机场订阅 " ], "include": [ "(?i)(🇭🇰|港|hk|hongkong|hong kong)" ] },
+    { "tag": "台湾节点", "type": "urltest", "providers": [ "🛫 机场订阅 " ], "include": [ "(?i)(🇹🇼|台|tw|taiwan|tai wan)" ] },
+    { "tag": "日本节点", "type": "urltest", "providers": [ "🛫 机场订阅 " ], "include": [ "(?i)(🇯🇵|日|jp|japan)" ] },
+    { "tag": "新加坡节点", "type": "urltest", "providers": [ "🛫 机场订阅 " ], "include": [ "(?i)(🇬|新|sg|singapore)" ] },
+    { "tag": "美国节点", "type": "urltest", "tolerance": 100, "providers": [ "🛫 机场订阅 " ], "include": [ "(?i)(🇺|美|us|unitedstates|united states)" ] },
+    { "tag": "自动选择", "type": "urltest", "tolerance": 100, "use_all_providers": true },
+    { "tag": "手动选择", "type": "selector", "use_all_providers": true }
+  ],
+  "route": {
+    "rules": [
+      { "rule_set": [ "private" ], "outbound": "私有网络" },
+      { "rule_set": [ "ads" ], "action": "reject" },
+      { "rule_set": [ "applications" ], "outbound": "直连软件" },
+      { "rule_set": [ "microsoft-cn" ], "outbound": "微软服务" },
+      { "rule_set": [ "apple-cn" ], "outbound": "苹果服务" },
+      { "rule_set": [ "google-cn" ], "outbound": "谷歌服务" },
+      { "rule_set": [ "games-cn" ], "outbound": "游戏服务" },
+      { "rule_set": [ "games" ], "outbound": "游戏平台" },
+      { "rule_set": [ "netflix" ], "outbound": "奈飞视频" },
+      { "rule_set": [ "disney" ], "outbound": "迪士尼+" },
+      { "rule_set": [ "max" ], "outbound": "Max" },
+      { "rule_set": [ "primevideo" ], "outbound": "Prime Video" },
+      { "rule_set": [ "appletv" ], "outbound": "Apple TV+" },
+      { "rule_set": [ "youtube" ], "outbound": "油管视频" },
+      { "rule_set": [ "tiktok" ], "outbound": "TikTok" },
+      { "rule_set": [ "bilibili" ], "outbound": "哔哩哔哩" },
+      { "rule_set": [ "spotify" ], "outbound": "Spotify" },
+      { "rule_set": [ "media" ], "outbound": "国外媒体" },
+      { "rule_set": [ "ai" ], "outbound": "AI 平台" },
+      { "rule_set": [ "networktest" ], "outbound": "网络测试" },
+      { "rule_set": [ "tld-proxy" ], "outbound": "国外顶级域名" },
+      { "rule_set": [ "gfw" ], "outbound": "国外域名" },
+      { "rule_set": [ "proxy" ], "outbound": "国外域名" },
+      { "rule_set": [ "cn" ], "outbound": "国内域名" },
+      { "rule_set": [ "privateip" ], "outbound": "私有网络" },
+      { "rule_set": [ "cnip" ], "outbound": "国内 IP" },
+      { "rule_set": [ "telegramip" ], "outbound": "电报消息" },
+      { "rule_set": [ "netflixip" ], "outbound": "奈飞视频" },
+      { "rule_set": [ "mediaip" ], "outbound": "国外媒体" }
     ],
     "rule_set": [
       // 任选一
