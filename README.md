@@ -1753,65 +1753,65 @@ rules:
   <tr>
     <td>DustinWin_Full.ini</td>
     <td>全分组规则，包含所有规则集，如<a href="https://www.netflix.com">奈飞</a>、<a href="https://www.youtube.com">油管</a>等国外媒体和游戏平台分流</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Full.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Full.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Full.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Full.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Full.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Full.ini">点此查看</a></td>
   </tr>
   <tr>
     <td>DustinWin_Full_NoAds.ini</td>
     <td>无广告全分组规则，包含所有规则集但去掉了广告规则集</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Full_NoAds.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Full_NoAds.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Full_NoAds.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Full_NoAds.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Full_NoAds.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Full_NoAds.ini">点此查看</a></td>
   </tr>
   <tr>
     <td>DustinWin_Lite.ini</td>
     <td>精简规则，不包含游戏平台和奈飞、油管等国外媒体分流</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Lite.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Lite.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Lite.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Lite.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Lite.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Lite.ini">点此查看</a></td>
   </tr>
   <tr>
     <td>DustinWin_Lite_NoAds.ini</td>
     <td>无广告精简规则，不包含游戏平台和奈飞、油管等国外媒体分流且去掉了广告规则集</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Lite_NoAds.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Lite_NoAds.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Lite_NoAds.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Lite_NoAds.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Lite_NoAds.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Lite_NoAds.ini">点此查看</a></td>
   </tr>
   <tr>
     <td>DustinWin_Blacklist.ini</td>
     <td>黑名单模式规则，GFW 模式，包含 <code>gfw</code> 分流</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Blacklist.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Blacklist.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Blacklist.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Blacklist.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Blacklist.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Blacklist.ini">点此查看</a></td>
   </tr>
   <tr>
     <td>DustinWin_Blacklist_NoAds.ini</td>
     <td>无广告黑名单模式规则，GFW 模式但去掉了广告规则集</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Blacklist_NoAds.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Blacklist_NoAds.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Blacklist_NoAds.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Blacklist_NoAds.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Blacklist_NoAds.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Blacklist_NoAds.ini">点此查看</a></td>
   </tr>
   <tr>
     <td>DustinWin_Blacklist_BestCF.ini</td>
     <td>Cloudflare 优选专用黑名单模式规则，GFW 模式但去掉了广告规则集且仅适用于 <a href="https://github.com/DustinWin/BestCF">Cloudflare 优选</a>项目</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Blacklist_BestCF.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Blacklist_BestCF.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Blacklist_BestCF.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Blacklist_BestCF.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Blacklist_BestCF.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Blacklist_BestCF.ini">点此查看</a></td>
   </tr>
   <tr>
     <td>DustinWin_Light.ini</td>
     <td>轻量规则，仅包含国内外域名（精简版）和国内 IP 分流</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Light.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Light.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Light.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Light.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Light.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Light.ini">点此查看</a></td>
   </tr>
   <tr>
     <td>DustinWin_Nano.ini</td>
     <td>极简规则，仅包含国内 IP 分流</td>
-    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Nano.ini">点此查看</a></td>
-    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@master/rule_templates/DustinWin_Nano.ini">点此查看</a></td>
-    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/master/rule_templates/DustinWin_Nano.ini">点此查看</a></td>
+    <td><a href="https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Nano.ini">点此查看</a></td>
+    <td><a href="https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@main/rule_templates/DustinWin_Nano.ini">点此查看</a></td>
+    <td><a href="https://ghfast.top/https://raw.githubusercontent.com/DustinWin/ruleset_geodata/main/rule_templates/DustinWin_Nano.ini">点此查看</a></td>
   </tr>
 </table>
 
