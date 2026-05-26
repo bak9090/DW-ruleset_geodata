@@ -276,7 +276,7 @@ jobs:
 
             # Generate `sing-box` rule_set
             cd ../
-            curl -sS -o ./tools/sing-box -L https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-test-linux-amd64-v3.upx
+            curl -sS -o ./tools/sing-box -L https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-testing-linux-amd64-v3.upx
             chmod +x ./tools/sing-box
             mkdir -p ./sing-box-ruleset/
             cd ./tools/
