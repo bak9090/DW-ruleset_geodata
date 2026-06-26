@@ -359,7 +359,7 @@ jobs:
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f origin sing-box-ruleset-compatible
 
-      - name: Release and upload `sing-box-ruleset` assets
+      - name: Release and upload `sing-box-ruleset` assets (singbox_equal == true)
         if: ${{ env.singbox_equal == 'true' }}
         uses: svenstaro/upload-release-action@v2
         with:
@@ -374,7 +374,7 @@ jobs:
           file_glob: true
           file: ./sing-box-ruleset/*
 
-      - name: Release and upload `sing-box-ruleset` assets
+      - name: Release and upload `sing-box-ruleset` assets (singbox_equal == false)
         if: ${{ env.singbox_equal == 'false' }}
         uses: svenstaro/upload-release-action@v2
         with:
