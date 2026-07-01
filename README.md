@@ -1092,7 +1092,7 @@ rules:
 
 ## 4. sing-box 内核文件使用
 注：
-- 1. [sing-box-ruleset](https://github.com/DustinWin/ruleset_geodata/releases/tag/sing-box-ruleset) 规则集文件版本为 [sing-box 规则集版本](https://sing-boxr.dustinwin.us.kg/zh/configuration/rule-set/source-format/#version)最新版；[sing-box-ruleset-compatible](https://github.com/DustinWin/ruleset_geodata/releases/tag/sing-box-ruleset-compatible) 规则集文件版本为 [sing-box 规则集版本](https://sing-boxr.dustinwin.us.kg/zh/configuration/rule-set/source-format/#version)最新版的上一个版本
+- 1. [sing-box-ruleset](https://github.com/DustinWin/ruleset_geodata/releases/tag/sing-box-ruleset) 规则集文件版本为 [sing-box 规则集版本](https://sing-boxr.dustinwin.cc.cd/zh/configuration/rule-set/source-format/#version)最新版；[sing-box-ruleset-compatible](https://github.com/DustinWin/ruleset_geodata/releases/tag/sing-box-ruleset-compatible) 规则集文件版本为 [sing-box 规则集版本](https://sing-boxr.dustinwin.cc.cd/zh/configuration/rule-set/source-format/#version)最新版的上一个版本
 - 2. 以下只是节选，请酌情套用
 
 <details>
